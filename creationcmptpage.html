@@ -1,0 +1,91 @@
+</html>
+<head>
+<title>account creation page</title>
+<link rel="stylesheet" href="cry.css" >
+</head>
+<body>
+    <h1>creat your account</h1>
+<form onsubmit="validation_infos()">
+<table  width ="100%">
+<tr>
+    <td>  .</td>
+</tr>
+<tr>
+<td>first name</td>
+<td> <input type="text" size="30" id="FisrtName"/></td></tr>
+<tr>
+<td>last name</td>
+<td> <input type="text" size="30"id="LastName"/></td>
+</tr>
+<tr>
+<td>Age</td>
+<td><input type ="number"/></td></tr>
+<tr>
+<td>wilaya</td>
+<td> <select name="town" >
+    <option value="01. Adrar">01. Adrar</option>
+    <option value="02. Chlef">02. Chlef</option>
+    <option value="03. Laghouat" >03. Laghouat</option>
+    <option value="04. Oum El Bouaghi ">04. Oum El Bouaghi</option>
+    <option value="05. Batna ">05. Batna </option>
+    <option value="06. Bejaia ">06. Bejaïa </option>
+    <option value="07.Biskra"> 07. Biskra </option>
+    <option value="08. Béchar ">08. Béchar</option>
+    <option value="09. Blida">09. Blida </option>
+    <option value="10. Bouira">10. Bouira </option>
+    <option value="11. Tamanrasset ">11. Tamanrasset</option>
+    <option value="12. Tebessa">12. Tebessa</option>
+    <option value="13. Tlemcen">13. Tlemcen</option>
+    <option value="14. Tiaret ">14. Tiaret</option>
+    <option value="15. Tizi Ouzou">15. Tizi Ouzou</option>
+    <option value="16. Alger">16. Alger</option>
+    <option value="17. Djelfa ">17. Djelfa</option>
+    <option value="18. Djijel">18. Djijel</option>
+    <option value="19. Setif">19. Sétif </option>
+    <option value="20.saida">20. saida </option>
+    <option value="21.skikda">21. Skikda </option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td>phone number</td>
+<td><input type="phone number" /></td>
+</tr>
+<tr>
+    <td>E-mail</td>
+    <td><input type="email" size="30"id="email"/></td>
+</tr>
+<tr aria-rowspan="2">
+    <td>adress</td>
+<td> <input type="text" size="30"/></td>
+</tr>
+<tr>
+    <td>password</td>
+<td> <input type="password" size="30"id="password"/></td>
+</tr>
+<tr>
+    <td>password confirmation</td>
+    <td> <input type="password" size="30"/></td>
+</tr>
+<tr>
+    <td>sexe</td>
+    <td><input type="radio"  value="male">male
+    
+    <input type="radio"value="Miss">female</td>
+
+</tr>
+<tr>
+    <td></td>
+    <td>
+        <button  type="submit" onclick="validation_login()">SEND</button>
+        <button>DELET</button>
+    </td>
+</tr>
+<tr><td>   .</td>
+</tr>
+</table>
+<script src="validation.js"></script>
+</form>
+</body>
+</html>

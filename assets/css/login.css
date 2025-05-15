@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(rgb(249, 225, 225), rgb(107, 63, 71));
+    background-image:url(pyn.jpg);
+    
+        background-repeat: no-repeat; /* يمنع التكرار */
+        background-size: cover; /* تغطي كامل المساحة دون تشويه */
+        
+      
+    align-items: center;
+
+}
+img{
+display: flex;
+    max-width: 100%; /* لجعل الصورة تتكيف مع حجم العنصر المحيط */
+    height: auto;
+    margin-left: 570px;
+    
+
+}
+table{
+  background-color: #e2c5cb7e;
+    width: 30%; 
+    height: 30%;
+    padding: 0;
+    margin: auto;
+    border: 0;
+    border-radius: 10%;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(140, 34, 80, 0.8);
+     
+}
+h1{
+    color: hsl(340, 61%, 62%);
+    font-size: 50px;
+    
+    font-style: initial;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+td {
+     
+    border-radius: 30%;
+    text-align: center; 
+    font-size:larger;
+    font-weight:bold;
+    color: rgb(255, 251, 252);
+    font-family:'Times New Roman', Times, serif;
+    width: 6px;
+        padding: 0px; /* إزالة أي مسافة داخلية */
+        overflow: hidden; /* يخفي النص الزائد عن الخلية */
+      
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;        /* مسافة بين الأزرار */
+    margin-top: 0px;  /* مسافة من الأعلى */
+    margin-left: 550px;
+}
+
+button {
+    text-align: center;
+    width: 80px;       /* عرض الزر */
+    height: 40px;      /* ارتفاع الزر */
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #f8d1d8e1;  /* إصلاح اللون (إزالة "") */
+    color: #e0798e;             /* لون النص */
+    border-color: #efc8d000; /* إصلاح اللون (إزالة "") */
+    box-shadow: 0px 0px 3px 3px rgba(251, 250, 250, 0.808);
+    margin-top: 50px;
+    font-size: 12px;
+    font-weight:bold;
+}
+a{
+
+    margin-left: 600px;
+}
+input{
+    border-color: #b8557b;
+    background-color:rgba(249, 249, 249, 0.32);
+    outline: none;
+    border-radius: 50px;
+    width: 180px;
+    height: 30px;
+
+}

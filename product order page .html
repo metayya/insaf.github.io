@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>product order page</title>
+       
+        <link rel="stylesheet"  href="order.css">
+
+    </head>
+ <body> 
+    <table border="1" width="100%" 
+    >
+<tr>
+    
+    <td  rowspan="7" width="40 px">
+        <img src="ofy.jpg" >
+        
+    </td>
+    
+
+  <tr> 
+        <td padding:30 px>
+      vendor :        </td>
+        <td>
+            <input type="text" >
+        </td>
+    </tr>
+    <tr>
+        <td>
+    price :
+            
+        </td>
+        <td>
+    <input type="number"></td>
+   </tr>
+        <tr>
+        <td>
+            ref :
+        </td>
+        <td>
+            <input type="text"></td>
+        </tr>
+            <tr>
+        <td>
+            color :
+        </td>
+            <td>
+                <input type="checkbox" name="couleur" value="beige">  beige<br>
+                <input type="checkbox" name="couleur" value="noire">  black <br>
+                <input type="checkbox" name="couleur" value="Rose">   pink <br>
+                <input type="checkbox" name="couleur" value="Grey">   Grey<br>
+                <input type="checkbox" name="couleur" value="Maron"> brown <br>
+            </td>
+        </tr>
+                <tr>
+                    <td>
+                        quantity :
+                    </td>
+                    <td>
+                    <input type="number" min="1"id="quantity"></td>
+            </tr>
+            <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <button  type="submit" onclick="validation_order()">command</button>
+                    </td>
+                </tr>
+    
+</tr>
+
+    </table>
+    <script src="validation.js"></script>
+ </body>
+ </html>
+        
+
+    

@@ -1,0 +1,63 @@
+body{
+    background-image:url(pyn.jpg);
+    background-repeat: no-repeat; /* يمنع التكرار */
+    background-size: cover; /* تغطي كامل المساحة دون تشويه */
+    
+  
+align-items: center;
+
+}
+img{
+
+ 
+    height: 350px; 
+    object-fit: cover;
+    box-shadow: 5px 0px 50px rgb(253, 242, 242);
+    max-width: 700px;
+    width: 400px; 
+    object-fit: cover;
+    border-radius: 50px;
+    
+}
+table{
+    
+        background-image: linear-gradient(to right, rgba(242, 209, 218, 0.61), rgba(238, 151, 174, 0.637));
+    
+    width: 60%;
+    height:80%;
+    margin: 40px auto;
+    border-radius: 20px;
+    border-color: #c2b8ba00;
+    margin:auto;
+     box-shadow: 0 0 10px rgba(140, 34, 80, 0.8);
+}
+input{
+    background-color: #fce4ea6b;
+    border-color: #a75878;
+    border-radius: 50px;
+}
+    td {
+    text-align: center; 
+    font-size:medium;
+    font-weight:bold;
+    color:  hsl(339, 57%, 55%);
+    font-family:'Times New Roman', Times, serif;
+    width: 6px;
+        padding: 0px; /* إزالة أي مسافة داخلية */
+        overflow: hidden; /* يخفي النص الزائد عن الخلية */
+      
+}
+button{
+    border-color: #e0798e;
+    background-color: #f8d1d8e1;  /* إصلاح اللون (إزالة "") */
+    color: #e0798e;             
+    border-radius: 200%;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0px 0px 5px 5px rgba(253, 235, 235, 0.808);
+}
+input.no-style {
+    border: none;
+    background: transparent;
+    outline: none;
+}
