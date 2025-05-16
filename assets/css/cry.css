@@ -1,8 +1,8 @@
 body{
     
     background-image: url(pyn.jpg);
-    background-repeat: no-repeat; /* يمنع التكرار */
-    background-size: cover; /* تغطي كامل المساحة دون تشويه */
+    background-repeat: no-repeat; 
+    background-size: cover; 
     
   
 align-items: center;
@@ -52,12 +52,12 @@ td {
     color: rgb(255, 251, 252);
     font-family:'Times New Roman', Times, serif;
     width: 6px;
-    padding: 0px; /* إزالة أي مسافة داخلية */
-    overflow: hidden; /* يخفي النص الزائد عن الخلية */
+    padding: 0px; 
+    overflow: hidden; 
       
 }
 button{
-    background-color: #f8d1d8cb;  /* إصلاح اللون (إزالة "") */
+    background-color: #f8d1d8cb;  
     color: #e0798e;             
     border-radius: 45%;
     width: 80px;
